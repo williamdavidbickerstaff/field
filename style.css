@@ -1,0 +1,78 @@
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.7;
+  margin: auto;
+  max-width: 42em;
+}
+
+.impressum {
+	right: 1em;
+	background-color: white;
+	position: absolute;
+}
+
+.letter_drawing {
+  overflow: hidden;
+  font-family: monospace, monospace;
+  font-size: 0.75vw;
+  white-space: pre;
+}
+
+.post-title-box {
+  display: flex;
+  height: 2.0em;
+  align-items: flex-start
+}
+
+.post-title {
+  font-size: 1.3em;
+}
+
+.date {
+  margin-left: auto;
+  vertical-align: top;
+  font-size: 0.75em;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aaaaaa;
+}
+
+a:hover {
+  color: #6a6a6a;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+img, video {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  line-height: 125%;
+  font-weight: normal;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+
